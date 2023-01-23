@@ -4,7 +4,7 @@ import java.util.Locale;
  Leia dois valores inteiros, no caso para variáveis A e B. A seguir, calcule a soma entre elas e atribua à variável SOMA. A seguir escrever o valor desta variável.
  */
 public class App {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args)  {
         
         Scanner sc = new Scanner(System.in);
 
