@@ -21,10 +21,6 @@ public class App {
             num2 = input.nextInt();
         }
         
-        
-
-
-
         input.close();
     }
 }
