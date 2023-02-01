@@ -1,0 +1,1 @@
+### Errei uma coisa bem básica no laço, não coloquei o if dentro do bloco do While.Pelo menos eu vi meu erro rsrs.
