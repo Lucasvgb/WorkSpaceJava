@@ -11,15 +11,15 @@ public class Main {
 
         int tipo = input.nextInt();
         while (tipo != 4) {
-			if (tipo == 1) {
-				alcool = alcool + 1;
-			}
-			else if (tipo == 2) {
-				gasolina = gasolina + 1;
-			}
-			else if (tipo == 3) {
-				diesel = diesel + 1;
-			}
+					if (tipo == 1) {
+						alcool = alcool + 1;
+					}
+					else if (tipo == 2) {
+						gasolina = gasolina + 1;
+					}
+					else if (tipo == 3) {
+						diesel = diesel + 1;
+					}
 			
 			tipo = input.nextInt();
 		}
