@@ -1,8 +1,8 @@
 import java.util.Scanner;
 import java.util.Locale;
 
-public class App {
-    public static void main(String[] args) throws Exception {
+public class Main {
+    public static void main(String[] args){
 
         Scanner input = new Scanner(System.in);
         Locale.setDefault(Locale.US);
@@ -19,10 +19,8 @@ public class App {
             nota2 = input.nextInt();
         }
 
-        double media =(nota1 + nota2) / 2.0;
+        double media = (nota1 + nota2) / 2.0;
         System.out.printf("media = %.2f%n", media);
-        
-
 
         input.close();
     }
