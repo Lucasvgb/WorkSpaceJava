@@ -1,14 +1,18 @@
+import java.util.Scanner;
+
+
 public class App {
     public static void main(String[] args) throws Exception {
         
-        int mult = 0;
-        int numero = 140;
-        int soma = 0;
-        for(int n = 1; n <= 10; ++n ){
-            soma = soma + n;
-            mult = soma * numero;
-            System.out.printf("%d"soma ," x", numero," = ", mult);
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+
+        for(int i = 1; i <= 10; ++i ){
+            int produto = i * n;
+            System.out.println(i + " x " + n + " = " +  produto);
         }
-        
+
+        sc.close();
     }
 }
