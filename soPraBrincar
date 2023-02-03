@@ -1,0 +1,13 @@
+import java.util.Locale;
+import java.util.Scanner;
+import java.util.Locale;
+
+public class App {
+    public static void main(String[] args) throws Exception {
+
+      System.out.printf("media");
+      int num = 1;
+      int num2 = 2;
+      int soma = num
+    }
+}
