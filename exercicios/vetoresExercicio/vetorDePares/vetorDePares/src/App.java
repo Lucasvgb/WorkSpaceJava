@@ -9,9 +9,11 @@ public class App {
         
         Scanner input = new Scanner(System.in);
         
-         int n = input.nextInt();        int [] vet = new int [n];
+         int n = input.nextInt();        
+         int [] vet = new int [n];
 
-        for(int i = 0; i < n; i++){            vet[i] = input.nextInt();
+        for(int i = 0; i < n; i++){            
+            vet[i] = input.nextInt();
         }
 
         for(int i = 0; i < n; i++){
